@@ -31,6 +31,10 @@ class ProcessarCogneeBase:
         """
         logger = self.logger
 
+        # Define a variável de ambiente dinamicamente
+        os.environ["LLM_MODEL"] = self.modelo
+        logger.info(f"Variável de ambiente LLM_MODEL definida como: {self.modelo}")
+        
         # Limpeza e preparação
         logger.info("Reiniciando ambiente Cognee...")
         await cognee.prune.prune_data()

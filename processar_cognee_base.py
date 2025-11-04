@@ -25,7 +25,7 @@ class ProcessarCogneeBase:
         self.nodeTransformer = NodeTransformer()
         self.edgeTransformer = EdgeTransformer()
 
-    async def _executar_cognee(self, question, context_texts, expected_output, ontology_path=None):
+    async def _executar_cognee(self, question, context_texts, expected_output, ontology_path=None, subquestions=None):
         """
         Executa o pipeline Cognee completo de forma genérica.
         """
@@ -38,17 +38,35 @@ class ProcessarCogneeBase:
         # Limpeza e preparação
         logger.info("Reiniciando ambiente Cognee...")
         await cognee.prune.prune_data()
-        await cognee.prune.prune_system(metadata=True)
+        await cognee.prune.prune_system(metadata=True)    
 
         # Adiciona dados e cria grafo
-        await cognee.add(context_texts)
+        logger.info("Adicionando contexto ao Cognee...")
+        for context_text in context_texts:
+            await cognee.add(context_text)
+            logger.info(f"Context text: {context_text}")
         
         # Verifica se há ontologia p/ ser carregada
         if not ontology_path:
+            logger.info("chamando conify...")
             await cognee.cognify()
         else:
-            await cognee.add(ontology_path)             #estou passando a ontologia com o add
-            await cognee.cognify()                      #não estou conseguindo passar o ontology_file_path direto na função
+            logger.info("adicionando ontologia...")
+            await cognee.cognify(ontology_file_path=ontology_path) 
+            #await cognee.add(ontology_path)                         #estou passando a ontologia com o add
+            #logger.info("chamando conify...")
+            #await cognee.cognify()                                  #não estou conseguindo passar o ontology_file_path direto na função
+
+        if subquestions:
+            for subq in subquestions:
+                logger.info(f"Adicionando subquestion: {subq}")
+                await cognee.add(subq)
+                logger.info("Chamando conify para subquestion...")
+                await cognee.cognify()
+
+        #chamando o memfy -> somente versoes mais novas do cognee
+        #logger.info("Chamando o memify...")
+        #await cognee.memify()
 
         # Busca no grafo
         logger.info("Executando busca no grafo...")
@@ -71,7 +89,8 @@ class ProcessarCogneeBase:
             expected_output=expected_output,
             retrieval_context=context_texts,
         )
-        evaluator = DeepEvalEvaluator(model_name=self.modelo)
+        #evaluator = DeepEvalEvaluator(model_name=self.modelo)
+        evaluator = DeepEvalEvaluator()
         evaluation_results = evaluator.evaluate_test_case(test_case)
 
         # Resultado final
@@ -83,9 +102,6 @@ class ProcessarCogneeBase:
         }
 
     def executar(self, dados_recebidos: dict) -> dict:
-        """
-        Método síncrono que gerencia o loop assíncrono de execução.
-        """
         try:
             loop = asyncio.get_running_loop()
         except RuntimeError:

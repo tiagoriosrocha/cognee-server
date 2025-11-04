@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:fd="http://example.org/family#">
+
+  <owl:Ontology rdf:about="http://example.org/family"/>
+
+  <!-- CLASSES -->
+  <owl:Class rdf:about="fd:Person">
+    <rdfs:label>Person</rdfs:label>
+    <rdfs:comment>An individual human being with personal, familial, and professional attributes.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="fd:City">
+    <rdfs:label>City</rdfs:label>
+    <rdfs:comment>Urban location where a person may be born or currently live.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="fd:State">
+    <rdfs:label>State</rdfs:label>
+    <rdfs:comment>Administrative division within a country.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="fd:Country">
+    <rdfs:label>Country</rdfs:label>
+    <rdfs:comment>Nation or sovereign territory.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="fd:Profession">
+    <rdfs:label>Profession</rdfs:label>
+    <rdfs:comment>Occupation or field of expertise associated with a person.</rdfs:comment>
+  </owl:Class>
+
+  <!-- OBJECT PROPERTIES -->
+  <owl:ObjectProperty rdf:about="fd:hasFather">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="fd:Person"/>
+    <rdfs:label>has father</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="fd:hasMother">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="fd:Person"/>
+    <rdfs:label>has mother</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="fd:hasChild">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="fd:Person"/>
+    <rdfs:label>has child</rdfs:label>
+    <owl:InverseFunctionalProperty rdf:about="fd:isChildOf"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="fd:isMarriedTo">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="fd:Person"/>
+    <rdfs:label>is married to</rdfs:label>
+    <owl:SymmetricProperty rdf:about="fd:isMarriedTo"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="fd:bornInCity">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="fd:City"/>
+    <rdfs:label>born in city</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="fd:livesInCity">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="fd:City"/>
+    <rdfs:label>lives in city</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="fd:bornInState">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="fd:State"/>
+    <rdfs:label>born in state</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="fd:livesInState">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="fd:State"/>
+    <rdfs:label>lives in state</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="fd:bornInCountry">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="fd:Country"/>
+    <rdfs:label>born in country</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="fd:livesInCountry">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="fd:Country"/>
+    <rdfs:label>lives in country</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="fd:worksAs">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="fd:Profession"/>
+    <rdfs:label>works as</rdfs:label>
+  </owl:ObjectProperty>
+
+  <!-- DATA PROPERTIES -->
+  <owl:DatatypeProperty rdf:about="fd:fullName">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+    <rdfs:label>full name</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="fd:birthDate">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="xsd:date"/>
+    <rdfs:label>birth date</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="fd:description">
+    <rdfs:domain rdf:resource="fd:Person"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+    <rdfs:label>description</rdfs:label>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

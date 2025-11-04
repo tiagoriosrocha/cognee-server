@@ -1,0 +1,12 @@
+Flask
+cognee
+flask_cors
+matplotlib
+seaborn
+scikit-learn
+deepeval
+transformers
+torch 
+sentencepiece 
+accelerate 
+safetensors

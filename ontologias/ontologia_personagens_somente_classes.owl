@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://www.w3.org/2002/07/owl#"
+>
+  <ns1:Class rdf:about="http://example.org/family#Person"/>
+  <ns1:Class rdf:about="http://example.org/family#City"/>
+  <ns1:Class rdf:about="http://example.org/family#State"/>
+  <ns1:Class rdf:about="http://example.org/family#Country"/>
+  <ns1:Class rdf:about="http://example.org/family#Profession"/>
+
+  <ns1:Class rdf:about="http://example.org/family#EducationalInstitution"/>
+  <ns1:Class rdf:about="http://example.org/family#Degree"/>
+  <ns1:Class rdf:about="http://example.org/family#Specialty"/>
+  <ns1:Class rdf:about="http://example.org/family#Program"/>
+
+</rdf:RDF>

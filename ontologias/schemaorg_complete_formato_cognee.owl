@@ -1,0 +1,2863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <ns1:Class rdf:about="https://schema.org/Consortium">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/IndividualPhysician">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Physician"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HowToSection">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/ListItem"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/ItemList"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Diet">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/LifestyleModification"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CreditCard">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LoanOrCredit"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/PaymentCard"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReserveAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PlanAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LiteraryEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ParkingFacility">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Playground">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DrawAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DrugStrength">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalIntangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Crematorium">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GeneralContractor">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HomeAndConstructionBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Answer">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Comment"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OpinionNewsArticle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/NewsArticle"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ShortStory">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FoodEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Guide">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MarryAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InteractAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AppendAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InsertAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SearchAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AssignAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AllocateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Hospital">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalOrganization"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/EmergencyService"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalCause">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HyperToc">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RejectAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AllocateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ShippingService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WPFooter">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPageElement"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BackgroundNewsArticle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/NewsArticle"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WearableSizeSystemEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SizeSystemEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WPAdBlock">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPageElement"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReturnFeesEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ArchiveOrganization">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CategoryCodeSet">
+    <rdfs:subClassOf rdf:resource="https://schema.org/DefinedTermSet"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LegislativeBuilding">
+    <rdfs:subClassOf rdf:resource="https://schema.org/GovernmentBuilding"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MusicStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/VoteAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ChooseAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GameAvailabilityEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Property">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ComputerStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Distillery">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FoodEstablishment"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MeasurementMethodEnum">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Optician">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PathologyTest">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalTest"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SteeringPositionValue">
+    <rdfs:subClassOf rdf:resource="https://schema.org/QualitativeValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SaleEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TouristInformationCenter">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RegisterAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InteractAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Recommendation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Review"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LiveBlogPosting">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BlogPosting"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TattooParlor">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HealthAndBeautyBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Language">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReservationPackage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Reservation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Drug">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Product"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/Substance"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SkiResort">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SportsActivityLocation"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/Resort"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/VideoGallery">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MediaGallery"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DiscoverAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FindAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LeaveAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InteractAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CheckoutPage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPage"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CompleteDataFeed">
+    <rdfs:subClassOf rdf:resource="https://schema.org/DataFeed"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MoneyTransfer">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TransferAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CampingPitch">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Accommodation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PodcastEpisode">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Episode"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PropertyValueSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PrependAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InsertAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalRiskScore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalRiskEstimator"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SportsClub">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SportsActivityLocation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Season">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ComicIssue">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PublicationIssue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalTestPanel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalTest"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SportingGoodsStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MotorcycleDealer">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AutomotiveBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AutomatedTeller">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FinancialService"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SellAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TradeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HVACBusiness">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HomeAndConstructionBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/VideoGameSeries">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWorkSeries"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PoliceStation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/EmergencyService"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/JewelryStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CDCPMDRecord">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/VideoGame">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SoftwareApplication"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/Game"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PreventionIndication">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalIndication"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BroadcastFrequencySpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/VisualArtsEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/Nursing">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/BookmarkAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/OrganizeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ListenAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ConsumeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OpeningHoursSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/Physiotherapy">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/NGO">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WarrantyScope">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CookAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OfficeEquipmentStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/InfectiousDisease">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalCondition"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TireShop">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PhysiciansOffice">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Physician"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MusicEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LegalValueLevel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MovieSeries">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWorkSeries"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EnergyStarEnergyEfficiencyEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EnergyEfficiencyEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RoofingContractor">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HomeAndConstructionBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Table">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPageElement"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AutoWash">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AutomotiveBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UnitPriceSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PriceSpecification"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TierBenefitEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ShippingRateSettings">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PayAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TradeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalContraindication">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Apartment">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Accommodation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MediaReviewItem">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Patient">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalAudience"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/Person"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/IndividualProduct">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Product"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OfferForPurchase">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Offer"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Code">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GiveAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TransferAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RsvpResponseType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Brewery">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FoodEstablishment"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AskPublicNewsArticle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/NewsArticle"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GenderType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MusicRelease">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MusicPlaylist"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Festival">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BreadcrumbList">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ItemList"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BookSeries">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWorkSeries"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/VideoObjectSnapshot">
+    <rdfs:subClassOf rdf:resource="https://schema.org/VideoObject"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Statement">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HowToTool">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HowToItem"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GolfCourse">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SportsActivityLocation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReportedDoseSchedule">
+    <rdfs:subClassOf rdf:resource="https://schema.org/DoseSchedule"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DietarySupplement">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Product"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/Substance"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DefenceEstablishment">
+    <rdfs:subClassOf rdf:resource="https://schema.org/GovernmentBuilding"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReceiveAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TransferAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DiscussionForumPosting">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SocialMediaPosting"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DeliveryMethod">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FilmAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ShareAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CommunicateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PriceComponentTypeEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BuyAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TradeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RecommendedDoseSchedule">
+    <rdfs:subClassOf rdf:resource="https://schema.org/DoseSchedule"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TouristTrip">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Trip"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AutoPartsStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AutomotiveBusiness"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/VideoGameClip">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Clip"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalGuidelineContraindication">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalGuideline"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Park">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ParcelDelivery">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Taxi">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Service"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/StadiumOrArena">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SportsActivityLocation"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ProfessionalService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ExchangeRateSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AccountingService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FinancialService"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ProductCollection">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Product"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/Collection"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CancelAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PlanAction"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/Otolaryngologic">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/Beach">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MensClothingStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Protein">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BioChemEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TreatmentIndication">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalIndication"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ServicePeriod">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalTrial">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalStudy"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SendAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TransferAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Winery">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FoodEstablishment"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ConvenienceStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/IncentiveQualifiedExpenseType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RadioEpisode">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Episode"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LodgingReservation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Reservation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalScholarlyArticle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ScholarlyArticle"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RentalCarReservation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Reservation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DownloadAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TransferAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WorkersUnion">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ProductGroup">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Product"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PaymentMethodType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ShippingDeliveryTime">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AskAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CommunicateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DrugPregnancyCategory">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CertificationStatusEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MortgageLoan">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LoanOrCredit"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ImagingTest">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalTest"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ArchiveComponent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HomeGoodsStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalEvidenceLevel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/InviteAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CommunicateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UserBlocks">
+    <rdfs:subClassOf rdf:resource="https://schema.org/UserInteraction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ClothingStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UserLikes">
+    <rdfs:subClassOf rdf:resource="https://schema.org/UserInteraction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/3DModel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MediaObject"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ProductModel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Product"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GameServer">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ApplyAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/OrganizeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BusinessEntityType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UserComments">
+    <rdfs:subClassOf rdf:resource="https://schema.org/UserInteraction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TouristAttraction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Newspaper">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Periodical"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Certification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AuthorizeAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AllocateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Seat">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FinancialIncentive">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PriceTypeEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DanceEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PlayGameAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ConsumeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ShoppingCenter">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Menu">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CssSelectorType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Text"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Barcode">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ImageObject"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PurchaseType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BoatTerminal">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Canal">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BodyOfWater"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TVClip">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Clip"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TheaterEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Attorney">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LegalService"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WriteAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreateAction"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/CommunityHealth">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/ReturnLabelSourceEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SportsEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Hackathon">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EducationalOccupationalCredential">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Claim">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PalliativeProcedure">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalTherapy"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalProcedure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PhysicalActivityCategory">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReviewAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AssessAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CatholicChurch">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Church"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Question">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Comment"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UserReview">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Review"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BarOrPub">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FoodEstablishment"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalWebPage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPage"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Quiz">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LearningResource"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MusicAlbum">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MusicPlaylist"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SoftwareSourceCode">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Observation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/QuantitativeValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/InvestmentFund">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InvestmentOrDeposit"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CompoundPriceSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PriceSpecification"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Florist">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RealEstateListing">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPage"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RadioClip">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Clip"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FundingScheme">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/Podiatric">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/ImageObjectSnapshot">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ImageObject"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PresentationDigitalDocument">
+    <rdfs:subClassOf rdf:resource="https://schema.org/DigitalDocument"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AnimalShelter">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TouristDestination">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PerformingArtsTheater">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GovernmentPermit">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Permit"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MiddleSchool">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EducationalOrganization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BankOrCreditUnion">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FinancialService"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Audiobook">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AudioObject"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/Book"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/IPTCDigitalSourceEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MediaEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HighSchool">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EducationalOrganization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MenuItem">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/IncentiveStatus">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CarUsageType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Muscle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AnatomicalStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HowToStep">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/ListItem"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/ItemList"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BeautySalon">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HealthAndBeautyBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalRiskCalculator">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalRiskEstimator"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EntryPoint">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ExhibitionEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Mosque">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PlaceOfWorship"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PerformanceRole">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Role"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RadioSeason">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWorkSeason"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Sculpture">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UKNonprofitType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/NonprofitType"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TaxiReservation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Reservation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LegislationObject">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MediaObject"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/Legislation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DanceGroup">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PerformingGroup"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SpeakableSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SomeProducts">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Product"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Blog">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DigitalPlatformEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OfferItemCondition">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DrinkAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ConsumeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OrderStatus">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StatusEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MotorizedBicycle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Vehicle"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HowToTip">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/ListItem"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OfferCatalog">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ItemList"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HinduTemple">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PlaceOfWorship"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Ligament">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AnatomicalStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Recipe">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HowTo"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/State">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AdministrativeArea"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WantAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ReactAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PhysicalExam">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalProcedure"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MonetaryAmountDistribution">
+    <rdfs:subClassOf rdf:resource="https://schema.org/QuantitativeValueDistribution"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BedType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/QualitativeValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GovernmentOrganization">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Duration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Quantity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OnDemandEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PublicationEvent"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TVSeason">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWorkSeason"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AdvertiserContentArticle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Article"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DeliveryChargeSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PriceSpecification"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OutletStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Chapter">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FoodEstablishmentReservation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Reservation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DepositAccount">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InvestmentOrDeposit"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/BankAccount"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/InteractionCounter">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/VitalSign">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalSign"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CommentAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CommunicateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Order">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RiverBodyOfWater">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BodyOfWater"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PublicToilet">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BoardingPolicyType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BodyMeasurementTypeEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MeasurementTypeEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReviewNewsArticle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/NewsArticle"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/CriticReview"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DateTime"/>
+  <ns1:Class rdf:about="https://schema.org/Integer">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Number"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/XPathType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Text"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MerchantReturnPolicy">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TelevisionStation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PodcastSeries">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWorkSeries"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MusicComposition">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BedDetails">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GamePlayMode">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Manuscript">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EUEnergyEfficiencyEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EnergyEfficiencyEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Boolean"/>
+  <ns1:Class rdf:about="https://schema.org/StatisticalVariable">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ConstraintNode"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FireStation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/EmergencyService"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Painting">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AggregateOffer">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Offer"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BusStop">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SuspendAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ControlAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EmployeeRole">
+    <rdfs:subClassOf rdf:resource="https://schema.org/OrganizationRole"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AboutPage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPage"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WatchAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ConsumeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RadioStation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/InstallAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ConsumeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DiagnosticLab">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalOrganization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RepaymentSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ImageGallery">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MediaGallery"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AgreeAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ReactAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Pond">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BodyOfWater"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Dentist">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalOrganization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AudioObjectSnapshot">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AudioObject"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ToyStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MovieTheater">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/EntertainmentBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/VacationRental">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LodgingBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WebAPI">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Service"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DataType">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RVPark">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DigitalDocumentPermission">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Taxon">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Thing"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Car">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Vehicle"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EmployerReview">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Review"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Flight">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Trip"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReplyAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CommunicateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HardwareStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/NLNonprofitType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/NonprofitType"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MovieRentalStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BorrowAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TransferAction"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/DietNutrition">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/WPHeader">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPageElement"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ShoeStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/InsuranceAgency">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FinancialService"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SiteNavigationElement">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPageElement"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Airline">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OnlineMarketplace">
+    <rdfs:subClassOf rdf:resource="https://schema.org/OnlineStore"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GeoCoordinates">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DrugLegalStatus">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalIntangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Syllabus">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LearningResource"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DataFeedItem">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Invoice">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DeactivateAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ControlAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CheckOutAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CommunicateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ResumeAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ControlAction"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/Optometric">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/Joint">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AnatomicalStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SubwayStation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MusicGroup">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PerformingGroup"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ResearchProject">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Project"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ConfirmAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InformAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HealthPlanNetwork">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DaySpa">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HealthAndBeautyBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Campground">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/LodgingBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Cemetery">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DrugClass">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ElectronicsStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Motorcycle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Vehicle"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PodcastSeason">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWorkSeason"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FoodService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Service"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HealthClub">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SportsActivityLocation"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/HealthAndBeautyBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Courthouse">
+    <rdfs:subClassOf rdf:resource="https://schema.org/GovernmentBuilding"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BusTrip">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Trip"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReturnAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TransferAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EventStatusType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StatusEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalSymptom">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalSignOrSymptom"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalStudyStatus">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WearableMeasurementTypeEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MeasurementTypeEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TaxiService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Service"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PostOffice">
+    <rdfs:subClassOf rdf:resource="https://schema.org/GovernmentOffice"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Waterfall">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BodyOfWater"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GovernmentService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Service"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/City">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AdministrativeArea"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CheckAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FindAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MonetaryAmount">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Motel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LodgingBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Reservoir">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BodyOfWater"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ContactPointOption">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicineSystem">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LendAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TransferAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RadiationTherapy">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalTherapy"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MusicVideoObject">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MediaObject"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PhysicalTherapy">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalTherapy"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BusStation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GameServerStatus">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StatusEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Museum">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Movie">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ActivateAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ControlAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ItemAvailability">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PublicationVolume">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UnRegisterAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InteractAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MerchantReturnEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LiquorStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PhotographAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreateAction"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/Obstetric">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/HairSalon">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HealthAndBeautyBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LinkRole">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Role"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EatAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ConsumeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TextDigitalDocument">
+    <rdfs:subClassOf rdf:resource="https://schema.org/DigitalDocument"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FollowAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InteractAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Pharmacy">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalOrganization"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/Midwifery">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/DataCatalog">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Hostel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LodgingBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AutoRental">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AutomotiveBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WearableSizeGroupEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SizeGroupEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FloorPlan">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Gene">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BioChemEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DataDownload">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MediaObject"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TieAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AchieveAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DepartmentStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FastFoodRestaurant">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FoodEstablishment"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DeliveryEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Bridge">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HowToDirection">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/ListItem"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MolecularEntity">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BioChemEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DayOfWeek">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FundingAgency">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Project"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/NailSalon">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HealthAndBeautyBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Atlas">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Embassy">
+    <rdfs:subClassOf rdf:resource="https://schema.org/GovernmentBuilding"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Preschool">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EducationalOrganization"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/Oncologic">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/MedicalGuidelineRecommendation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalGuideline"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MusicReleaseFormatType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/QAPage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPage"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HealthAspectEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SocialEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Map">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReadAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ConsumeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalProcedureType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PaymentService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FinancialProduct"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/PaymentMethod"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/Pediatric">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/TrainTrip">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Trip"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/InternetCafe">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Mass">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Quantity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/USNonprofitType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/NonprofitType"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OfferForLease">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Offer"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReportageNewsArticle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/NewsArticle"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TypeAndQuantityNode">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AcceptAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AllocateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ScreeningEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UserPageVisits">
+    <rdfs:subClassOf rdf:resource="https://schema.org/UserInteraction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SatiricalArticle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Article"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Suite">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Accommodation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalSpecialty">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Specialty"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Drawing">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Demand">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DrugCost">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PoliticalParty">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LibrarySystem">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DislikeAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ReactAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PawnShop">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LakeBodyOfWater">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BodyOfWater"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Photograph">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TrainStation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ComedyEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FAQPage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPage"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MusicAlbumProductionType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OccupationalExperienceRequirements">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HealthPlanCostSharingSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Mountain">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Landform"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Play">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ParentAudience">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PeopleAudience"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Locksmith">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HomeAndConstructionBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WebApplication">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SoftwareApplication"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/JobPosting">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OrderAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TradeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UserPlays">
+    <rdfs:subClassOf rdf:resource="https://schema.org/UserInteraction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Brand">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalAudienceType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AnalysisNewsArticle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/NewsArticle"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReservationStatusType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StatusEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ClaimReview">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Review"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WPSideBar">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPageElement"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TakeAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TransferAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Country">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AdministrativeArea"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BefriendAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InteractAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TVSeries">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWorkSeries"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EventVenue">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WebSite">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AmpStory">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/MediaObject"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Researcher">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Audience"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MerchantReturnPolicySeasonalOverride">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MeetingRoom">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Room"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Float">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Number"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Ticket">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalCode">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalIntangible"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/CategoryCode"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RecyclingCenter">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LymphaticVessel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Vessel"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Energy">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Quantity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/School">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EducationalOrganization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Restaurant">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FoodEstablishment"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TaxiStand">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EmployerAggregateRating">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AggregateRating"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AutoBodyShop">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AutomotiveBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Report">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Article"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/VeterinaryCare">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalOrganization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GroceryStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SelfStorage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PetStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BoatReservation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Reservation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Bakery">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FoodEstablishment"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BusinessEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GovernmentBenefitsType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EventSeries">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/Series"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ApartmentComplex">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Residence"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LocationFeatureSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PropertyValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BrainStructure">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AnatomicalStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WarrantyPromise">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/NoteDigitalDocument">
+    <rdfs:subClassOf rdf:resource="https://schema.org/DigitalDocument"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Quotation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OfferShippingDetails">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AutoRepair">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AutomotiveBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MovingCompany">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HomeAndConstructionBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RestrictedDiet">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/JoinAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InteractAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BookFormatType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GatedResidenceCommunity">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Residence"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AdultOrientedEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FulfillmentTypeEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Casino">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EntertainmentBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TheaterGroup">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PerformingGroup"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RadioBroadcastService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BroadcastService"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LoseAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AchieveAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WholesaleStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/StatisticalPopulation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalObservationalStudy">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalStudy"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Plumber">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HomeAndConstructionBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RadioSeries">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWorkSeries"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HealthPlanFormulary">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SizeSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/QualitativeValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SearchRescueOrganization">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DeleteAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/UpdateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SingleFamilyResidence">
+    <rdfs:subClassOf rdf:resource="https://schema.org/House"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Synagogue">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PlaceOfWorship"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MonetaryGrant">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Grant"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ComicCoverArt">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ComicStory"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/CoverArt"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DisagreeAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ReactAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReturnMethodEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GardenStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MusicVenue">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MathSolver">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AnatomicalSystem">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EndorsementRating">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Rating"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ViewAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ConsumeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Occupation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ContactPage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPage"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SuperficialAnatomy">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ActionAccessSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BusinessFunction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RsvpAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InformAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ElementarySchool">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EducationalOrganization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CourseInstance">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PostalCodeRangeSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CollegeOrUniversity">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EducationalOrganization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AdultEntertainment">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EntertainmentBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ExercisePlan">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/PhysicalActivity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ApprovedIndication">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalIndication"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BrokerageAccount">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InvestmentOrDeposit"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HousePainter">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HomeAndConstructionBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OwnershipInfo">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CovidTestingFacility">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalClinic"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HyperTocEntry">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BusOrCoach">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Vehicle"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EndorseAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ReactAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Notary">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LegalService"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TextObject">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MediaObject"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EventAttendanceModeEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CableOrSatelliteService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Service"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Thesis">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CityHall">
+    <rdfs:subClassOf rdf:resource="https://schema.org/GovernmentBuilding"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/IceCreamShop">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FoodEstablishment"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CafeOrCoffeeShop">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FoodEstablishment"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BedAndBreakfast">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LodgingBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HowToSupply">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HowToItem"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MotorcycleRepair">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AutomotiveBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PaymentChargeSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PriceSpecification"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ShippingConditions">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DryCleaningOrLaundry">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TravelAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MoveAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SeaBodyOfWater">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BodyOfWater"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BoatTrip">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Trip"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MenuSection">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UserDownloads">
+    <rdfs:subClassOf rdf:resource="https://schema.org/UserInteraction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UserPlusOnes">
+    <rdfs:subClassOf rdf:resource="https://schema.org/UserInteraction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ExerciseGym">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SportsActivityLocation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RefundTypeEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TVEpisode">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Episode"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Course">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LearningResource"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/PrimaryCare">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/TrainReservation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Reservation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EnergyConsumptionDetails">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/IncentiveType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ServiceChannel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RentAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TradeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalDevicePurpose">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MovieClip">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Clip"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SurgicalProcedure">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalProcedure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MediaSubscription">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DigitalDocumentPermissionType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ScheduleAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PlanAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OrderItem">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TrackAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FindAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Continent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Landform"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OceanBodyOfWater">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BodyOfWater"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DriveWheelConfigurationValue">
+    <rdfs:subClassOf rdf:resource="https://schema.org/QualitativeValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BroadcastEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PublicationEvent"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ChildrensEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AmusementPark">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EntertainmentBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UserCheckins">
+    <rdfs:subClassOf rdf:resource="https://schema.org/UserInteraction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ActionStatusType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StatusEnumeration"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/PublicHealth">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/Psychiatric">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/PronounceableText">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Text"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Class">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PerformAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PlayAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AutoDealer">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AutomotiveBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GeospatialGeometry">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Zoo">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Library">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SportsTeam">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SportsOrganization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WorkBasedProgram">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EducationalOccupationalProgram"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ItemListOrderType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Distance">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Quantity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HealthInsurancePlan">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MusicRecording">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SpecialAnnouncement">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Conversation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ComicSeries">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Periodical"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FMRadioChannel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/RadioChannel"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EngineSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PaintAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreateAction"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/Gynecologic">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/MapCategoryType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ComputerLanguage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AMRadioChannel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/RadioChannel"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HealthTopicContent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebContent"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ResearchOrganization">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PaymentStatusType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StatusEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/NightClub">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EntertainmentBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SheetMusic">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/URL">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Text"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TravelAgency">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Vein">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Vessel"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReplaceAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/UpdateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalTrialDesign">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DefinedRegion">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SolveMathAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CorrectionComment">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Comment"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalObservationalStudyDesign">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Electrician">
+    <rdfs:subClassOf rdf:resource="https://schema.org/HomeAndConstructionBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TennisComplex">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SportsActivityLocation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ComedyClub">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EntertainmentBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalDevice">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Nerve">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AnatomicalStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CurrencyConversionService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FinancialProduct"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GeoCircle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/GeoShape"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HobbyShop">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MaximumDoseSchedule">
+    <rdfs:subClassOf rdf:resource="https://schema.org/DoseSchedule"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Volcano">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Landform"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BowlingAlley">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SportsActivityLocation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EducationalAudience">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Audience"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MusicAlbumReleaseType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/Dermatology">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/RespiratoryTherapy">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalTherapy"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/Poster">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SchoolDistrict">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AdministrativeArea"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DatedMoneySpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PreOrderAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TradeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DepartAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MoveAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ArtGallery">
+    <rdfs:subClassOf rdf:resource="https://schema.org/EntertainmentBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MediaManipulationRatingEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/QuoteAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TradeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalConditionStage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalIntangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PsychologicalTreatment">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TherapeuticProcedure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MediaReview">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Review"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UserTweets">
+    <rdfs:subClassOf rdf:resource="https://schema.org/UserInteraction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GasStation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AutomotiveBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Date"/>
+  <ns1:Class rdf:about="https://schema.org/Time"/>
+  <rdf:Description rdf:about="https://schema.org/Emergency">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/LegalForceStatus">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StatusEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Aquarium">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TipAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TradeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalRiskFactor">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WearAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/UseAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DrugPrescriptionStatus">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ChildCare">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OccupationalTherapy">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalTherapy"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Bone">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AnatomicalStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TelevisionChannel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BroadcastChannel"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ArriveAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MoveAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MobileApplication">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SoftwareApplication"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RealEstateAgent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HotelRoom">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Room"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ProgramMembership">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/Geriatric">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/MedicalImagingTechnique">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FurnitureStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/IgnoreAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AssessAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BookStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EmploymentAgency">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EventReservation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Reservation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MemberProgram">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BloodTest">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalTest"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ItemPage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPage"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AlignmentObject">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ProfilePage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPage"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EmailMessage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Message"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BuddhistTemple">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PlaceOfWorship"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Airport">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MobilePhoneStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EducationEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LikeAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ReactAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Cooperative">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/NewsMediaOrganization">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FlightReservation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Reservation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WinAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AchieveAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Hotel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LodgingBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DonateAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TransferAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BusinessAudience">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Audience"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PostalAddress">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ContactPoint"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SearchResultsPage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPage"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/InfectiousAgentClass">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BusReservation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Reservation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BikeStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Store"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Schedule">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SubscribeAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InteractAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MemberProgramTier">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CheckInAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CommunicateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/APIReference">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TechArticle"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Corporation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LandmarksOrHistoricalBuildings">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SpreadsheetDigitalDocument">
+    <rdfs:subClassOf rdf:resource="https://schema.org/DigitalDocument"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DiagnosticProcedure">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalProcedure"/>
+  </ns1:Class>
+  <rdf:Description rdf:about="https://schema.org/PlasticSurgery">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+  </rdf:Description>
+  <ns1:Class rdf:about="https://schema.org/VirtualLocation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DrugCostCategory">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEnumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PublicSwimmingPool">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SportsActivityLocation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ExerciseAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PlayAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SeekToAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Artery">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Vessel"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DDxElement">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalIntangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ChemicalSubstance">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BioChemEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/NutritionInformation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Event">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Thing"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Permit">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WebPage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalRiskEstimator">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CriticReview">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Review"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DataFeed">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Dataset"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Accommodation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AudioObject">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MediaObject"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/QualitativeValue">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CoverArt">
+    <rdfs:subClassOf rdf:resource="https://schema.org/VisualArtwork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Landform">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BioChemEntity">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Thing"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BodyOfWater">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Landform"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Offer">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PublicationEvent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Game">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/StructuredValue">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LearningResource">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TherapeuticProcedure">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalProcedure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ImageObject">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MediaObject"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OrganizationRole">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Role"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PublicationIssue">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TradeAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Physician">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalOrganization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MediaEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BroadcastChannel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PhysicalActivity">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LifestyleModification"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PlanAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/OrganizeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ConsumeAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Service">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Person">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Thing"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HealthAndBeautyBusiness">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GovernmentOffice">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SizeGroupEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/NonprofitType">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DoseSchedule">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalIntangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PropertyValue">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Action">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Thing"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalGuideline">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Periodical">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWorkSeries"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AllocateAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/OrganizeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HomeAndConstructionBusiness">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Project">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BroadcastService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Service"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/InsertAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AddAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LifestyleModification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalCondition">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AggregateRating">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Rating"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalProcedure">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AssessAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Role">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AdministrativeArea">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Vessel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AnatomicalStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Audience">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/HowTo">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LegalService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ScholarlyArticle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Article"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PaymentMethod">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UpdateAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Grant">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LocalBusiness">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalClinic">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalBusiness"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalOrganization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Room">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Accommodation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalBusiness">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MediaObject">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UserInteraction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Place">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Thing"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/NewsArticle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Article"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ConstraintNode">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalOrganization">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ReactAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AssessAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WebPageElement">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/InformAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CommunicateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Vehicle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Product"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EducationalOrganization">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FoodEstablishment">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Review">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GovernmentBuilding">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FinancialProduct">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Service"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PaymentCard">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FinancialProduct"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/PaymentMethod"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalEntity">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Thing"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OnlineBusiness">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/GeoShape">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/VideoObject">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MediaObject"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/QuantitativeValue">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Quantity">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PeopleAudience">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Audience"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/QuantitativeValueDistribution">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DefinedTermSet">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TransferAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Episode">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ContactPoint">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LodgingBusiness">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalTest">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FindAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Intangible">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Thing"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Series">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EducationalOccupationalProgram">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/WebContent">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OrganizeAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalIndication">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MusicPlaylist">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Clip">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MeasurementTypeEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SportsActivityLocation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CommunicateAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/InteractAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EmergencyService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalIntangible">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Store">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EntertainmentBusiness">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Collection">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/StatusEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/LoanOrCredit">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FinancialProduct"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SoftwareApplication">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AddAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/UpdateAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MoveAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Number"/>
+  <ns1:Class rdf:about="https://schema.org/SizeSystemEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Specialty">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Resort">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LodgingBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DigitalDocument">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Rating">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Product">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Thing"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CreativeWorkSeries">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/Series"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Dataset">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PriceSpecification">
+    <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Organization">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Thing"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ControlAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/InteractAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CreativeWork">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Thing"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/VisualArtwork">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/House">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Accommodation"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalSignOrSymptom">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalCondition"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MediaGallery">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CollectionPage"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SocialMediaPosting">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Article"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/FinancialService">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Comment">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ListItem">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Trip">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/SportsOrganization">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PlayAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/DefinedTerm">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalSign">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalSignOrSymptom"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/UseAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ConsumeAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/OnlineStore">
+    <rdfs:subClassOf rdf:resource="https://schema.org/OnlineBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Church">
+    <rdfs:subClassOf rdf:resource="https://schema.org/PlaceOfWorship"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Thing"/>
+  <ns1:Class rdf:about="https://schema.org/CategoryCode">
+    <rdfs:subClassOf rdf:resource="https://schema.org/DefinedTerm"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ItemList">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/InvestmentOrDeposit">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FinancialProduct"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalStudy">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalTherapy">
+    <rdfs:subClassOf rdf:resource="https://schema.org/TherapeuticProcedure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AnatomicalStructure">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BlogPosting">
+    <rdfs:subClassOf rdf:resource="https://schema.org/SocialMediaPosting"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/TechArticle">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Article"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ComicStory">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CreativeWorkSeason">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Legislation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Article">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/EnergyEfficiencyEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Message">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AutomotiveBusiness">
+    <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Reservation">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalAudience">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Audience"/>
+    <rdfs:subClassOf rdf:resource="https://schema.org/PeopleAudience"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CollectionPage">
+    <rdfs:subClassOf rdf:resource="https://schema.org/WebPage"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PlaceOfWorship">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CivicStructure"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/RadioChannel">
+    <rdfs:subClassOf rdf:resource="https://schema.org/BroadcastChannel"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CreateAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Substance">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MedicalEntity"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Book">
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/AchieveAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Action"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/MedicalEnumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Enumeration"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/CivicStructure">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/ChooseAction">
+    <rdfs:subClassOf rdf:resource="https://schema.org/AssessAction"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/PerformingGroup">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Enumeration">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/BankAccount">
+    <rdfs:subClassOf rdf:resource="https://schema.org/FinancialProduct"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Residence">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+  </ns1:Class>
+  <ns1:Class rdf:about="https://schema.org/Text"/>
+  <ns1:Class rdf:about="https://schema.org/HowToItem">
+    <rdfs:subClassOf rdf:resource="https://schema.org/ListItem"/>
+  </ns1:Class>
+</rdf:RDF>

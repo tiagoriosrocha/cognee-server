@@ -42,7 +42,12 @@ class ProcessarCogneeBase:
 
         # Adiciona dados e cria grafo
         await cognee.add(context_texts)
-        await cognee.cognify(ontology_file_path=ontology_path)
+        
+        # Verifica se há ontologia p/ ser carregada
+        if not ontology_path:
+            await cognee.cognify()
+        else:
+            await cognee.cognify(ontology_file_path=ontology_path)
 
         # Busca no grafo
         logger.info("Executando busca no grafo...")
@@ -65,7 +70,7 @@ class ProcessarCogneeBase:
             expected_output=expected_output,
             retrieval_context=context_texts,
         )
-        evaluator = DeepEvalEvaluator(modelo=self.modelo)
+        evaluator = DeepEvalEvaluator(model_name=self.modelo)
         evaluation_results = evaluator.evaluate_test_case(test_case)
 
         # Resultado final

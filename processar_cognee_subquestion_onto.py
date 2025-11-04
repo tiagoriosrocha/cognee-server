@@ -12,6 +12,7 @@ class ProcessarCogneeSubquestionOnto(ProcessarCogneeBase):
             context.append(sub.get("answer", ""))
 
         ontology_path = os.path.join(
-            os.path.dirname(os.path.abspath(__file__)), "ontologias/ontologia_personagens_somente_classes.owl"
+            os.path.dirname(os.path.abspath(__file__)), "ontologias/schemaorg_classes_formato_cognee.owl"
         )
+        
         return await self._executar_cognee(question, context, expected_output, ontology_path)

@@ -47,7 +47,8 @@ class ProcessarCogneeBase:
         if not ontology_path:
             await cognee.cognify()
         else:
-            await cognee.cognify(ontology_file_path=ontology_path)
+            await cognee.add(ontology_path)             #estou passando a ontologia com o add
+            await cognee.cognify()                      #não estou conseguindo passar o ontology_file_path direto na função
 
         # Busca no grafo
         logger.info("Executando busca no grafo...")
